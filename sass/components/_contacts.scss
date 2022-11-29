@@ -29,3 +29,16 @@
   fill: var(--accent-color);
   transition: 250ms;
 }
+.contact {
+  font-size: 14px;
+  list-style: none;
+}
+.contact a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--contacts-header-color);
+  width: 231px;
+  margin-top: 9px;
+  display: block;
+}
