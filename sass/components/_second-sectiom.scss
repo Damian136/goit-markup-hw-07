@@ -1,0 +1,23 @@
+.label {
+  width: 370px;
+  height: 294px;
+  position: relative;
+}
+.text-label {
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  background: #2f303acc;
+  margin-top: 224px;
+}
+
+.text-label > p {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--body-background-color);
+  padding-top: 27px;
+}

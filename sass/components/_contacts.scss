@@ -1,0 +1,31 @@
+.contact-links li a:hover svg {
+  fill: var(--accent-color);
+  transition: 250ms;
+}
+.contact-links a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--contacts-header-color);
+}
+.contact-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--contacts-header-color);
+  padding-left: 345px;
+  gap: 30px;
+}
+.icon-header {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+.icon-header:hover,
+.icon-header:focus {
+  fill: var(--accent-color);
+  transition: 250ms;
+}

@@ -1,0 +1,115 @@
+.insidemodal {
+  width: 11px;
+  height: 11px;
+}
+.modal__form-title {
+  margin-top: 40px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  padding-bottom: 2px;
+}
+.modal__text-form {
+  margin-left: 40px;
+  margin-top: 5px;
+  display: flex;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: var(--contacts-hder-color);
+  padding-bottom: 4px;
+}
+.modal__form-box {
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 42px;
+}
+.modal__form-box:hover,
+.modal__form-box:focus-within {
+  border: 1px solid var(--accent-color);
+}
+.modal__form-box:hover + svg,
+.modal__form-box:focus-within + svg {
+  fill: #2196f3;
+}
+.modal__icon-person {
+  fill: #212121;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 102px;
+  left: 60px;
+}
+.modal__icon-phone {
+  fill: #212121;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  top: 174px;
+  left: 60px;
+}
+.modal__icon-mail {
+  height: 12px;
+  width: 15px;
+  position: absolute;
+  top: 248px;
+  left: 60px;
+}
+.modal__textarea {
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 120px;
+  resize: none;
+  padding: 12px;
+}
+.modal__textarea::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.legal-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.hide-checkbox {
+  opacity: 0;
+}
+.hide-checkbox:checked + .checkboxspan {
+  background-color: rgba(33, 150, 243, 1);
+  border: none;
+}
+.checkboxspan {
+  display: flex;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+  margin-left: 54px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #212121;
+}
+.spancheck {
+  margin-left: 7px;
+  margin-right: 54px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(117, 117, 117, 1);
+}
