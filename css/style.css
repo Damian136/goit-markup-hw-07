@@ -977,26 +977,6 @@ input:checked + .modal__checkbox-icon {
   justify-content: center;
   align-items: center;
 }
-.modal-button {
-  display: flex;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  border: none;
-  background-color: rgba(33, 150, 243, 1);
-  color: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  padding: 10px 76px 10px 76px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  align-items: center;
-}
-.modal-button {
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
 .modal-label {
   padding-top: 12px;
   padding-left: 16px;
