@@ -60,7 +60,6 @@ input {
 }
 .page {
   border-bottom: 1px solid #ececec;
-  background-color: var(--background-color);
 }
 .portfolio-page {
   border-bottom: 1px solid #ececec;
