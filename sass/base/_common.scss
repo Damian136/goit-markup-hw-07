@@ -48,3 +48,18 @@ input {
   list-style: none;
   gap: 30px;
 }
+.dream-team {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.img {
+  object-fit: cover;
+  display: block;
+}
+.test {
+  display: flex;
+  align-items: baseline;
+}
