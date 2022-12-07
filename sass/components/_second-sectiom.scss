@@ -32,3 +32,14 @@
   color: var(--body-background-color);
   padding-top: 27px;
 }
+.photos {
+  background-color: var(--first-background-color);
+  display: inline;
+  color: var(--first-text-color);
+}
+.photos h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 50px;
+}

@@ -6,3 +6,38 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+.navigation h2 {
+  font-size: 26px;
+  padding-right: 90px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navigation-menu {
+  display: flex;
+  list-style: none;
+  gap: 46px;
+}
+.navigation-menu li {
+  display: inline;
+  text-decoration: none;
+}
+
+.navigation-menu li:hover {
+  display: inline;
+  text-decoration: none;
+  transition: 250ms;
+}
+
+.navigation-menu a {
+  text-decoration: none;
+}
+
+.navigation-menu a:hover {
+  display: inline;
+  text-decoration: none;
+  transition: 250ms;
+}
