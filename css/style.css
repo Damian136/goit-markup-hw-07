@@ -617,7 +617,6 @@ input {
   background: #2f303acc;
   margin-top: 224px;
 }
-
 .text-label > p {
   font-family: "Roboto";
   font-weight: 700;
@@ -639,7 +638,6 @@ input {
   font-size: 36px;
   padding-bottom: 50px;
 }
-
 .photos ul {
   list-style: none;
   gap: 30px;
