@@ -61,9 +61,6 @@ input {
 .page {
   border-bottom: 1px solid #ececec;
 }
-.portfolio-page {
-  border-bottom: 1px solid #ececec;
-}
 .header-nav {
   font-family: "Raleway";
   color: var(--accent-color);
@@ -238,23 +235,6 @@ input {
   margin-bottom: 30px;
   border-radius: 4px;
 }
-.icon-list {
-  list-style-type: none;
-  display: flex;
-  gap: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.lorem-ipsum-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
 .description-title {
   line-height: 1.36;
   font-weight: 700;
@@ -270,11 +250,6 @@ input {
 .icon-list-svg {
   width: 65px;
   height: 70px;
-}
-.title-profile {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
 }
 .profile {
   font-size: 14px;
