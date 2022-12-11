@@ -15,6 +15,10 @@
   --blue-color: rgba(33, 150, 243, 1);
   --transition-fn: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.img {
+  object-fit: cover;
+  display: block;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-text-color);
