@@ -34,3 +34,6 @@ input:checked + .modal__checkbox-icon {
   transition: border-color 250ms var(--transition-fn);
   transition: fill 250ms var(--transition-fn);
 }
+.short-description {
+  padding-top: 94px;
+}
