@@ -189,3 +189,24 @@ input:checked + .modal__checkbox-icon {
   fill: var(--accent-color);
   transition: 250ms;
 }
+.main-header {
+  max-width: 1600px;
+  display: block;
+  margin: auto;
+  background-image: linear-gradient(to right, #2f303a66 40%, #2f303a66 40%),
+    url(../Images/Zdjecia/Img.jpg);
+  background-size: cover;
+}
+.tittle-page {
+  display: flex;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  margin: auto;
+  justify-content: space-around;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 30px;
+  letter-spacing: 0.06em;
+  width: 696px;
+}
