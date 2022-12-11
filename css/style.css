@@ -819,10 +819,6 @@ input:focus-within + svg {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.kwadrat {
-  width: 16px;
-  height: 15px;
-}
 .modal__box {
   margin-top: 60px;
   position: static;

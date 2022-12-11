@@ -23,31 +23,14 @@ body {
 input {
   outline: none;
 }
-.short-description {
-  padding-top: 94px;
+input:hover + svg,
+input:focus-within + svg {
+  fill: #2196f3;
 }
-.second-section {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.photos ul {
-  list-style: none;
-  gap: 30px;
-}
-.dream-team {
-  display: flex;
-  justify-content: space-around;
-  background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.img {
-  object-fit: cover;
-  display: block;
-}
-.test {
-  display: flex;
-  align-items: baseline;
+input:checked + .modal__checkbox-icon {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+  border-radius: 2px;
+  transition: border-color 250ms var(--transition-fn);
+  transition: fill 250ms var(--transition-fn);
 }
