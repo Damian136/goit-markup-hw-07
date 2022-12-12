@@ -8,16 +8,17 @@
   background-color: var(--first-background-color);
   display: inline;
   color: var(--first-text-color);
-}
-.photos h2 {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  padding-bottom: 50px;
-}
-.photos ul {
-  list-style: none;
-  gap: 30px;
+
+  & h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 50px;
+  }
+  & ul {
+    list-style: none;
+    gap: 30px;
+  }
 }
 .photo {
   display: flex;
