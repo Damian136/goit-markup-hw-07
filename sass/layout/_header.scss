@@ -3,16 +3,17 @@
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-.navigation h2 {
-  font-size: 26px;
-  padding-right: 90px;
-}
-.navigation a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 16px;
-  font-weight: 500;
+
+  & h2 {
+    font-size: 26px;
+    padding-right: 90px;
+  }
+  & a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
 .logo-nav {
   font-family: "Raleway";
@@ -33,31 +34,34 @@
 .navigation-menu li {
   display: inline;
   text-decoration: none;
-}
-.navigation-menu li:hover {
-  display: inline;
-  text-decoration: none;
-  transition: 250ms;
+
+  &:hover {
+    display: inline;
+    text-decoration: none;
+    transition: 250ms;
+  }
 }
 .navigation-menu a {
   text-decoration: none;
-}
-.navigation-menu a:hover {
-  display: inline;
-  text-decoration: none;
-  transition: 250ms;
+
+  &:hover {
+    display: inline;
+    text-decoration: none;
+    transition: 250ms;
+  }
 }
 .agency {
   position: relative;
-}
-.agency:after {
-  content: "";
-  position: absolute;
-  width: 53px;
-  height: 4px;
-  background-color: rgba(33, 150, 243, 1);
-  bottom: -33px;
-  left: 0px;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    background-color: rgba(33, 150, 243, 1);
+    bottom: -33px;
+    left: 0px;
+  }
 }
 .link {
   text-decoration: none;
@@ -68,13 +72,6 @@
   fill: var(--accent-color);
   transition: 250ms;
 }
-.contact-links a {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--contacts-header-color);
-}
 .contact-links {
   display: flex;
   align-items: center;
@@ -84,14 +81,23 @@
   color: var(--contacts-header-color);
   padding-left: 345px;
   gap: 30px;
+
+  & a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--contacts-header-color);
+  }
 }
 .icon-header {
   margin-right: 5px;
   width: 16px;
   height: 16px;
-}
-.icon-header:hover,
-.icon-header:focus {
-  fill: var(--accent-color);
-  transition: 250ms;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    transition: 250ms;
+  }
 }
