@@ -47,8 +47,7 @@
   width: 11px;
   height: 11px;
 }
-.modal {
-  &form-title {
+.modal-form-title {
     margin-top: 40px;
     font-family: Roboto;
     font-size: 20px;
@@ -59,7 +58,7 @@
     color: #212121;
     padding-bottom: 2px;
   }
-  &text-form {
+  .modal-text-form {
     margin-left: 40px;
     margin-top: 5px;
     display: flex;
@@ -72,7 +71,7 @@
     color: var(--contacts-hder-color);
     padding-bottom: 4px;
   }
-  &form-box {
+  .modal-form-box {
     width: 448px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -80,15 +79,15 @@
     margin-bottom: 10px;
     padding-left: 42px;
   }
-  &form-box:hover,
-  &form-box:focus-within {
+  .modal-form-box:hover,
+  .modal-form-box:focus-within {
     border: 1px solid var(--accent-color);
   }
-  &form-box:hover + svg,
-  &form-box:focus-within + svg {
+  .modal-form-box:hover + svg,
+  .modal-form-box:focus-within + svg {
     fill: #2196f3;
   }
-  &icon-person {
+  .modal-icon-person {
     fill: #212121;
     height: 12px;
     width: 12px;
@@ -96,7 +95,7 @@
     top: 102px;
     left: 60px;
   }
-  &icon-phone {
+  .modal-icon-phone {
     fill: #212121;
     height: 13px;
     width: 13px;
@@ -104,14 +103,14 @@
     top: 174px;
     left: 60px;
   }
-  &icon-mail {
+  .modal-icon-mail {
     height: 12px;
     width: 15px;
     position: absolute;
     top: 248px;
     left: 60px;
   }
-  &textarea {
+  .modal-textarea {
     width: 448px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -119,7 +118,7 @@
     resize: none;
     padding: 12px;
   }
-  &textarea::placeholder {
+  .modal-textarea::placeholder {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -128,14 +127,13 @@
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
   }
-  &checkbox-link {
+  .modal-checkbox-link {
     color: var(--accent-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5em;
     letter-spacing: 0.03em;
   }
-}
 .legal-checkbox {
   display: flex;
   flex-wrap: wrap;
