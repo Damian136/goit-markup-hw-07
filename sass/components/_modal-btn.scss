@@ -47,7 +47,7 @@
   width: 11px;
   height: 11px;
 }
-.modal-form-title {
+.modal__form-title {
     margin-top: 40px;
     font-family: Roboto;
     font-size: 20px;
@@ -58,7 +58,7 @@
     color: #212121;
     padding-bottom: 2px;
   }
-  .modal-text-form {
+  .modal__text-form {
     margin-left: 40px;
     margin-top: 5px;
     display: flex;
@@ -71,7 +71,7 @@
     color: var(--contacts-hder-color);
     padding-bottom: 4px;
   }
-  .modal-form-box {
+  .modal__form-box {
     width: 448px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -79,15 +79,15 @@
     margin-bottom: 10px;
     padding-left: 42px;
   }
-  .modal-form-box:hover,
-  .modal-form-box:focus-within {
+  .modal__form-box:hover,
+  .modal__form-box:focus-within {
     border: 1px solid var(--accent-color);
   }
-  .modal-form-box:hover + svg,
-  .modal-form-box:focus-within + svg {
+  .modal__form-box:hover + svg,
+  .modal__form-box:focus-within + svg {
     fill: #2196f3;
   }
-  .modal-icon-person {
+  .modal__icon-person {
     fill: #212121;
     height: 12px;
     width: 12px;
@@ -95,7 +95,7 @@
     top: 102px;
     left: 60px;
   }
-  .modal-icon-phone {
+  .modal__icon-phone {
     fill: #212121;
     height: 13px;
     width: 13px;
@@ -103,7 +103,7 @@
     top: 174px;
     left: 60px;
   }
-  .modal-icon-mail {
+  .modal__icon-mail {
     height: 12px;
     width: 15px;
     position: absolute;
