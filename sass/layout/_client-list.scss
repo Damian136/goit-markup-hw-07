@@ -13,14 +13,13 @@
   list-style: none;
   gap: 30px;
   padding-bottom: 94px;
-
-  &:focus,
-  &:hover {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
-    cursor: pointer;
-    transition: 250ms;
-  }
+}
+.primary-client-list:focus,
+.primary-client-list:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+  cursor: pointer;
+  transition: 250ms;
 }
 .primary-client-list li {
   display: flex;
