@@ -14,13 +14,6 @@
   gap: 30px;
   padding-bottom: 94px;
 }
-.primary-client-list:focus,
-.primary-client-list:hover {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-  cursor: pointer;
-  transition: 250ms;
-}
 .primary-client-list li {
   display: flex;
   justify-content: center;
@@ -30,6 +23,13 @@
   border-radius: 4px;
   border: 1px solid #afb1b8;
   fill: var(--color-icon);
+}
+.primary-client-list:focus,
+.primary-client-list:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+  cursor: pointer;
+  transition: 250ms;
 }
 .clients {
   height: 92px;
