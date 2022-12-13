@@ -24,8 +24,8 @@
   border: 1px solid #afb1b8;
   fill: var(--color-icon);
 }
-.primary-client-list:focus,
-.primary-client-list:hover {
+.primary-client-list :focus,
+.primary-client-list :hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
   cursor: pointer;
