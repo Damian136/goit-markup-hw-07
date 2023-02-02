@@ -26,12 +26,12 @@
   font-weight: 700;
   font-size: 26px;
 }
-.navigation-menu {
+.navigation__menu {
   display: flex;
   list-style: none;
   gap: 46px;
 }
-.navigation-menu li {
+.navigation__menu li {
   display: inline;
   text-decoration: none;
 
@@ -41,7 +41,7 @@
     transition: 250ms;
   }
 }
-.navigation-menu a {
+.navigation__menu a {
   text-decoration: none;
 
   &:hover {
