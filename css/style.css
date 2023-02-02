@@ -241,7 +241,7 @@ input {
   color: var(--brand-color, black);
   font-size: 14px;
 }
-.description-text {
+.description-title__text {
   line-height: 1.71;
   padding-top: 10px;
   color: var(--description-color);
